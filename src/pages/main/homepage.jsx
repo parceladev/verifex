@@ -2,7 +2,7 @@ import { Jumbotron, Statistic, Tagline } from '../../components/homes';
 
 const homepage = () => {
   return (
-    <div className="bg-gray-500" >
+    <div className="bg-gray-400" >
       <h1>Home Page</h1>
       <Jumbotron />
       <Statistic />

@@ -2,7 +2,7 @@ import {Banner, ButtonFormLegit, CardProduct, SearchProduct} from "../../compone
 
 const legitcheckpage = () => {
   return (
-    <div>
+    <div className="bg-slate-400">
       <h1>Legit Check Page</h1>
       <Banner/>
       <ButtonFormLegit/>
