@@ -1,7 +1,10 @@
+import { Description} from "../../components/abouts"
+
 const aboutpage = () => {
   return (
-    <div>
+    <div className="bg-gray-500">
       <h1>About Page</h1>
+      <Description/>
     </div>
   );
 };
