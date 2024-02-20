@@ -1,6 +1,6 @@
 import { Jumbotron, Statistic, Tagline } from '../../components/homes';
 
-const homepage = () => {
+const HomePage = () => {
   return (
     <div className="bg-gray-400" >
       <h1>Home Page</h1>
@@ -11,4 +11,4 @@ const homepage = () => {
   );
 };
 
-export default homepage;
+export default HomePage;

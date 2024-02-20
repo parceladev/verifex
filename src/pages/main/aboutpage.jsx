@@ -1,6 +1,6 @@
 import { Description} from "../../components/abouts"
 
-const aboutpage = () => {
+const AboutPage = () => {
   return (
     <div className="bg-gray-400">
       <h1>About Page</h1>
@@ -9,4 +9,4 @@ const aboutpage = () => {
   );
 };
 
-export default aboutpage;
+export default AboutPage;

@@ -1,6 +1,6 @@
 import {Banner, ButtonFormLegit, CardProduct, SearchProduct} from "../../components/legitchecks"
 
-const legitcheckpage = () => {
+const LegitCheckPage = () => {
   return (
     <div className="bg-slate-400">
       <h1>Legit Check Page</h1>
@@ -12,4 +12,4 @@ const legitcheckpage = () => {
   );
 };
 
-export default legitcheckpage;
+export default LegitCheckPage;
