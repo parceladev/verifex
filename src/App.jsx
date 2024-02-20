@@ -1,8 +1,18 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import AboutPage from './pages/main/AboutPage';
+import HomePage from './pages/main/HomePage';
+import LegitCheckPage from './pages/main/LegitCheckPage';
+
 const App = () => {
   return (
-    <div>
-      <h1 className="underline bg-black text-red-400">Hello Verifex</h1>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/legit-check" element={<LegitCheckPage />} />
+      </Routes>
+    </Router>
   );
 };
 

@@ -1,3 +1,4 @@
+
 import {Banner, ButtonFormLegit, CardProduct, SearchProduct} from "../../components/legitchecks"
 
 const LegitCheckPage = () => {

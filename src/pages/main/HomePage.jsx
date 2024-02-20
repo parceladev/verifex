@@ -1,3 +1,4 @@
+
 import { Jumbotron, Statistic, Tagline } from '../../components/homes';
 
 const HomePage = () => {
@@ -12,3 +13,4 @@ const HomePage = () => {
 };
 
 export default HomePage;
+

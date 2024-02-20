@@ -1,3 +1,4 @@
+
 import { Description} from "../../components/abouts"
 
 const AboutPage = () => {
