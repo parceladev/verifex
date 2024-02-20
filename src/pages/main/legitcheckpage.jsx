@@ -1,4 +1,4 @@
-const legitcheckpage = () => {
+const LegitCheckPage = () => {
   return (
     <div>
       <h1>Legit Check Page</h1>
@@ -6,4 +6,4 @@ const legitcheckpage = () => {
   );
 };
 
-export default legitcheckpage;
+export default LegitCheckPage;
