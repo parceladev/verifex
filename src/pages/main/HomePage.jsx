@@ -1,16 +1,16 @@
-
-import { Jumbotron, Statistic, Tagline } from '../../components/homes';
+import { Jumbotron, Statistic, Tagline } from "../../components/homes";
+import styles from "../../styles";
 
 const HomePage = () => {
   return (
-    <div className="bg-gray-400" >
-      <h1>Home Page</h1>
-      <Jumbotron />
-      <Statistic />
-      <Tagline />
+    <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Jumbotron />
+        <Statistic />
+        <Tagline />
+      </div>
     </div>
   );
 };
 
 export default HomePage;
-
