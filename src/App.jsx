@@ -1,19 +1,15 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import { UserLayout } from './layouts/UserLayout';
+import { AuthLayout } from './layouts/AuthLayout';
 
-import AboutPage from './pages/main/AboutPage';
-import HomePage from './pages/main/HomePage';
-import LegitCheckPage from './pages/main/LegitCheckPage';
-
-const App = () => {
+function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/legit-check" element={<LegitCheckPage />} />
-      </Routes>
-    </Router>
+    <Routes>
+      <Route path="/user/*" element={<UserLayout />} />
+      <Route path="/auth/*" element={<AuthLayout />} />
+      <Route path="*" element={<Navigate to="/user/home" replace />} />
+    </Routes>
   );
-};
+}
 
 export default App;
