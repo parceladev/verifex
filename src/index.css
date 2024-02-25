@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @font-face {
   font-family: Linotype Didot;
   src: url("../public/Linotype-Didot/DidotLTPro-Bold.ttf") format('truetype');
@@ -7,7 +8,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 :root {
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 * {
@@ -19,11 +26,14 @@ body {
   padding: 0;
 }
 
-.bg-primary{
+li {
+  list-style: none;
+}
+
+.bg-primary {
   background-color: #FBFBFB;
 }
 
-.bg-secondary{
+.bg-secondary {
   background-color: #282828;
 }
-
