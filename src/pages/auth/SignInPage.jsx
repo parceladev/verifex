@@ -1,17 +1,23 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
+import FormSignIn from './../../components/auths/FormSignIn';
 
 const SignInPage = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen gap-60">
-      <h1>Sign In Page</h1>
-      <div className="flex underline gap-36">
-        <li>
-          <a href="/user/home">Back to Home Page</a>
-        </li>
-        <li>
-          <a href="/auth/sign-up">Sign Up</a>
-        </li>
+    <div
+      className="flex flex-col items-center justify-center w-full h-full min-h-screen gap-10"
+      style={{
+        backgroundImage: "url('/src/assets/auth/bg-img-auth.png')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
+    >
+      <FormSignIn />
+      <div className="flex gap-1">
+        <p>Dont have any account?</p>
+        <a href="/auth/sign-up" className="font-bold">
+          Sign Up
+        </a>
       </div>
     </div>
   );

@@ -19,6 +19,9 @@
 
 * {
   scroll-behavior: smooth;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  font-family: 'Encode Sans Semi Condensed';
 }
 
 body {
