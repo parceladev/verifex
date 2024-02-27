@@ -5,7 +5,7 @@ import FormSignIn from './../../components/auths/FormSignIn';
 const SignInPage = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center w-full h-full min-h-screen gap-10"
+      className="flex flex-col items-center justify-center w-full h-full min-h-screen gap-10 p-5"
       style={{
         backgroundImage: "url('/src/assets/auth/bg-img-auth.png')",
         backgroundSize: 'cover',
