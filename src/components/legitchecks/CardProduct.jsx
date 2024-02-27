@@ -7,7 +7,7 @@ const CardProduct = () => {
         alt="product-legit-portofolio"
       />
       <p className="text-center">Vans Oldskool</p>
-      <p className="text-center bg-black dark:bg-gray-300 font-bold py-3 text-white dark:text-black">
+      <p className="py-3 font-bold text-center text-white bg-black dark:bg-gray-300 dark:text-black">
         Orginal
       </p>
     </div>
