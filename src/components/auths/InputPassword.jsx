@@ -16,7 +16,7 @@ const InputPassword = (props) => {
       <input
         type={showPassword ? 'text' : 'password'}
         placeholder={placeholder}
-        className="p-4 bg-[rgba(217,217,217,0.2)] placeholder-white text-white w-full rounded-md pr-10"
+        className="p-4 bg-[rgba(217,217,217,0.2)] placeholder-white text-white w-full rounded-md"
       />
       <FontAwesomeIcon
         icon={showPassword ? faEyeSlash : faEye}
