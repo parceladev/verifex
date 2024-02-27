@@ -1,10 +1,37 @@
-// eslint-disable-next-line no-unused-vars
-import React from 'react';
+import {
+  ButtonFormLegit,
+  CardProduct,
+  SearchProduct,
+  Banner,
+} from '../../components/legitchecks';
 
 const LegitCheckPage = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen">
-      <h1>Legit Check Page</h1>
+    <div>
+      <section className="h-screen w-full,">
+        <Banner />
+      </section>
+      <section className="m-12 flex flex-col gap-10">
+        <h2 className="text-3xl uppercase">Track Your Legit Check</h2>
+        <div className="flex">
+          <SearchProduct />
+          <ButtonFormLegit />
+        </div>
+        <div className="grid grid-cols-4 gap-4">
+          <CardProduct />
+          <CardProduct />
+          <CardProduct />
+          <CardProduct />
+          <CardProduct />
+          <CardProduct />
+          <CardProduct />
+          <CardProduct />
+          <CardProduct />
+          <CardProduct />
+          <CardProduct />
+          <CardProduct />
+        </div>
+      </section>
     </div>
   );
 };

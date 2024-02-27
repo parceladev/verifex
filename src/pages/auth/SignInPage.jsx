@@ -13,7 +13,7 @@ const SignInPage = () => {
       }}
     >
       <FormSignIn />
-      <div className="flex gap-1">
+      <div className="flex gap-1 text-white">
         <p>Dont have any account?</p>
         <a href="/auth/sign-up" className="font-bold">
           Sign Up

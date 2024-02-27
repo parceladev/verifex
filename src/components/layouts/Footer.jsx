@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const Footer = () => {
   return (
-    <div className="text-center w-full px-10 py-6 bg-[#1b1b1b]">
+    <div className="text-center text-white w-full px-10 py-6 bg-[#1b1b1b]">
       <h1>Footer</h1>
     </div>
   );

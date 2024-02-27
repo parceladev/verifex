@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between w-full px-10 py-6 bg-[#1b1b1b]">
+    <div className="flex justify-between text-white w-full px-10 py-6 bg-[#1b1b1b]">
       <div className="logo ">
         <a href="">Verifex</a>
       </div>

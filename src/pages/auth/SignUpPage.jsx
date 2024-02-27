@@ -13,7 +13,7 @@ const SignUpPage = () => {
       }}
     >
       <FormSignUp />
-      <div className="flex gap-1">
+      <div className="flex gap-1 text-white">
         <p>Have any account?</p>
         <a href="/auth/sign-in" className="font-bold">
           Sign In
