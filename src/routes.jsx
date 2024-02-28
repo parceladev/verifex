@@ -1,4 +1,9 @@
-import { HomePage, LegitCheckPage, AboutPage } from './pages/user';
+import {
+  HomePage,
+  LegitCheckPage,
+  AboutPage,
+  LegitCheckFormPage,
+} from './pages/user';
 import { SignInPage, SignUpPage } from './pages/auth';
 
 export const routes = [
@@ -25,6 +30,11 @@ export const routes = [
         name: 'About Page',
         path: '/about',
         element: <AboutPage />,
+      },
+      {
+        name: 'About Page',
+        path: '/legit-check-form',
+        element: <LegitCheckFormPage />,
       },
     ],
   },

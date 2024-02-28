@@ -7,7 +7,7 @@ import BorderButton from './BorderButton';
 
 const FormSignUp = () => {
   return (
-    <div className="flex flex-col gap-5 p-12 rounded-2xl bg-white/35 w-[475px]">
+    <div className="flex flex-col gap-5 p-12 rounded-2xl text-white bg-white/35 w-full sm:w-[475px]">
       <a href="" className="flex justify-center mb-4">
         <img src="/src/assets/auth/form-logo.png" alt="" />
       </a>
