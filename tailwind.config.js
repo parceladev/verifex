@@ -10,8 +10,14 @@ module.exports = {
         secondary: "#F4F4F4",
       },
       fontFamily: {
-        sans: ["Encode Sans Semi Condensed", "sans-serif"], // Font family dari Google Fonts
-        didot: ["Linotype Didot", "serif"], // Font family yang sudah didefinisikan dengan font-face
+        sans: ["Encode Sans Semi Condensed", "sans-serif"], 
+        didot: ["Linotype Didot", "serif"], 
+        roman: ["Didot Roman", "serif"]
+      },
+      backgroundColor: {
+        navtheme: "#E0E0E0",
+        primary: "#FBFBFB",
+        secondary: "#282828",
       },
     },
     screens: {

@@ -5,6 +5,11 @@
   src: url("../public/Linotype-Didot/DidotLTPro-Bold.ttf") format('truetype');
 }
 
+@font-face{
+  font-family: Didot Roman;
+  src: url("../public/Linotype-Didot/public/Linotype-Didot/DidotLTPro-Roman.ttf") format('truetype');
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -31,12 +36,4 @@ body {
 
 li {
   list-style: none;
-}
-
-.bg-primary {
-  background-color: #FBFBFB;
-}
-
-.bg-secondary {
-  background-color: #282828;
 }
