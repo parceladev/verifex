@@ -1,7 +1,7 @@
 const Jumbotron = () => {
   return (
     <div
-      className=" text-center my-8 h-[500px] w-[100%] flex flex-col items-center justify-center"
+      className=" text-center mb-8 h-[500px] w-[100%] flex flex-col items-center justify-center"
       style={{
         backgroundImage:
           "url('/src/assets/homepage/Jumbotron.jpg')",

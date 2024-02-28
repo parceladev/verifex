@@ -4,9 +4,8 @@ import routes from './../routes';
 
 export function UserLayout() {
   return (
-    <div>
+    <section>
       <Navbar routes={routes} />
-      <div>
         <Routes>
           {routes.map(
             ({ layout, pages }) =>
@@ -16,9 +15,8 @@ export function UserLayout() {
               ))
           )}
         </Routes>
-      </div>
       <Footer />
-    </div>
+    </section>
   );
 }
 

@@ -1,6 +1,6 @@
 const Statistic = () => {
   return (
-    <section className="flex flex-col md:flex-row justify-between w-full">
+    <section className="flex flex-col md:flex-row justify-between w-full mt-4">
       <div
         className="w-full md:w-[450px] h-[300px] bg-cover bg-center"
         style={{
@@ -10,7 +10,7 @@ const Statistic = () => {
 
       <div className="w-full md:w-1/2 p-8 flex flex-col text-right ">
         <div>
-          <p className="text-[18px] ">
+          <p className="text-[15px] ">
             MAKING PEOPLE ENJOY WEARING THEIR OUTFITS
           </p>
           <div>

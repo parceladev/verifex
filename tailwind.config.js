@@ -15,8 +15,8 @@ module.exports = {
         roman: ["Didot Roman", "serif"]
       },
       backgroundColor: {
-        navtheme: "#E0E0E0",
-        primary: "#FBFBFB",
+        navtheme: "#FBFBFB",
+        primary: "#E0E0E0",
         secondary: "#282828",
       },
     },
